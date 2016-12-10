@@ -85,6 +85,12 @@ ul.share-buttons li{
   display: inline;
 }
 
+@media(max-width:500px) {
+    .resume {
+        width: 100%;
+        
+    }
+}
 ul.share-buttons .sr-only {
   position:absolute;
   clip: rect(1px 1px 1px 1px);
