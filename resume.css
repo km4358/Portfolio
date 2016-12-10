@@ -36,6 +36,8 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: inline;
+    list-style-type: none;
     width: 100%;
     float: left;
     padding: 15px;
@@ -85,11 +87,8 @@ ul.share-buttons li{
   display: inline;
 }
 
-@media(max-width:500px) {
-    .resume {
-        width: 100%;
         
-    }
+    
 }
 ul.share-buttons .sr-only {
   position:absolute;
