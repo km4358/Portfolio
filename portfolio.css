@@ -32,6 +32,10 @@ html{
     font-family: "Akrobat", sans-serif;
 }
 .header{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
     background-color: cadetblue;
     color:white;
     text-shadow: black 0.1em 0.1em 0.2em;
