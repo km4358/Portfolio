@@ -1,0 +1,130 @@
+<style>
+* {
+    box-sizing: border-box;
+    }
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: lightgray;
+}
+.wrapper{
+	padding-bottom: 60px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block:
+}
+[class*="col-"] {
+    float: left;
+        padding: 15px;
+    text-align: center;
+}
+html{
+    font-family: "Akrobat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header{
+    background-color: cadetblue;
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align:center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 150px;
+    background-image: url(assets/TexasHillCountry_Dest_141105263.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position:absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.welcome {
+	text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display:inline-table;
+    text-align: center;
+    padding:8px;
+    margin-bottom: 7px;
+    background-color: cadetblue;
+    color: white;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color:steelblue;
+}
+.portrait1 {
+    display:inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 150px;
+    height: 55px;
+    padding: 50px;
+    background-image:url(assets/Texas_Longhorn_logo.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: center;
+
+    
+}
+.portrait2 {
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto
+    width: 150;
+    height: 60px;
+    padding: 50px;
+    background-image:url(assets/UWCrest_4c.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+.portrait:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.footer {
+    background-color: cadetblue;
+    position: relative;
+    margin-top: -60px;
+    height: 60px;
+    clear: both
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+    
