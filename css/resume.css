@@ -1,24 +1,44 @@
 <style>
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
     box-sizing: border-box;
     }
 .body{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     flex-direction: column;
     height: 100%;
     background-color: lightgray;
 }
 .wrapper{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
 	padding-bottom: 60px;
 }
 .row::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
     content: "";
     clear: both;
     display: block:
 }
 [class*="col-"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
     float: left;
-        padding: 15px;
+    padding: 15px;
     text-align: center;
 }
 html{
@@ -45,6 +65,16 @@ html{
     background-repeat: no-repeat;
     
 }
+
+
+@media(max-width:500px) {
+    .heading {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    };
+    }
 
 ul.share-buttons{
   list-style: none;

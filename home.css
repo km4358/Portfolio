@@ -3,11 +3,22 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+    min-width: 320px;
     }
 .body{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 320px;
     background-color: lightgray;
 }
 .wrapper{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 320px;
 	padding-bottom: 60px;
 }
 .row::after {
@@ -16,8 +27,13 @@
     display: block:
 }
 [class*="col-"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 320px;
     float:left;
-        padding: 15px;
+    padding: 15px;
 }
 html{
     font-family: "Akrobat", sans-serif;
@@ -26,7 +42,10 @@ html{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: block;
+    float: left;
     width: 100%;
+    min-width: 320px;
     background-color: cadetblue;
     color:white;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -37,9 +56,21 @@ html{
     background-image: url(assets/barton-creek-greenbelt-1024x473.jpg);
     background-size:cover;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     
 }
+
+
+
+
+@media(max-width:500px) {
+    .heading {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    };
+    }
 
 ul.share-buttons{
   list-style: none;
