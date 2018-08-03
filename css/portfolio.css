@@ -1,4 +1,4 @@
-<style>
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -35,7 +35,7 @@ p{
     width: 100%;
     content: "";
     clear: both;
-    display: block:
+    display: block;
 }
 [class*="col-"] {
     -webkit-box-sizing: border-box;
@@ -46,7 +46,7 @@ p{
     padding: 15px;
 }
 html{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     height: 100%;
     font-family: "Akrobat", sans-serif;
@@ -133,6 +133,8 @@ ul.share-buttons .sr-only {
     text-align: left;
     
 }
+
+
 .staticmap {
     position: relative;
     overflow: hidden;
@@ -141,6 +143,17 @@ ul.share-buttons .sr-only {
     width: 85%;
     padding: 1%;
     text-align:left;
+}
+
+.winemap {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin:auto;
+    width: 85%;
+    padding: 1%;
+    text-align:left;
+    
 }
 
 .footer {
@@ -155,4 +168,3 @@ ul.share-buttons .sr-only {
     width: 100%;
     
 }
-</style>
